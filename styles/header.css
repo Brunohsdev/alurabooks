@@ -62,7 +62,7 @@
     }
     .container__titulo, .container__titulo-negrito{
     font-family: var(--fonte-secundaria);
-    font-family: 30px;
+    font-size: 30px;
     }
     .container__titulo{
         font-weight: 400;
@@ -92,5 +92,13 @@
     }
     .opcoes__botao{
         display: none;
+    }
+}
+@media screen and (min-width: 1728px) {
+    .container__link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
     }
 }
