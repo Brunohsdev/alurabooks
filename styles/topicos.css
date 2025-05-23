@@ -30,3 +30,8 @@
     }
     
 }
+@media screen and (min-width: 1728px) {
+    .tópicos{
+        padding: 3em 20vw;
+    }
+}
